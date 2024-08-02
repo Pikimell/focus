@@ -1,0 +1,33 @@
+body.show-modal .backdrop {
+  display: flex;
+  opacity: 1;
+}
+
+.backdrop {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(85, 85, 85, 0.613);
+}
+
+.modal {
+  position: relative;
+  width: 150px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 15px;
+  transform: scale(2);
+}
+
+.modal > * {
+  margin-top: 50px;
+}
